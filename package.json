@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "testu1e1": "jest u1e1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.4.2"
+  }
+}
